@@ -9,4 +9,6 @@ async def home():
 
 
 if __name__ == "__main__":
-    app.run(port=25021, debug=True)
+    from constants import HOST, PORT
+
+    app.run(host=HOST, port=PORT, debug=True)
