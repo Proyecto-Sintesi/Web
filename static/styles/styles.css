@@ -60,19 +60,6 @@ nav ul li:last-child a {
     position: relative;
 }
 
-#title::before {
-    content: "";
-    width: 100%;
-    height: 168px;
-    position: absolute;
-    bottom: -0.3%;
-    left: 0;
-    background-size: auto;
-    background-repeat: repeat no-repeat;
-    background-position: 40vw bottom;
-    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  127' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 93L50 87C100 82 200 70 300 47C400 25 500 -10 600 2C700 13 800 70 900 93C1000 116 1100 104 1150 99L1200 93V127H1150C1100 127 1000 127 900 127C800 127 700 127 600 127C500 127 400 127 300 127C200 127 100 127 50 127H0V93Z' fill='%233e3e3e'/></svg>");
-}
-
 #title button {
     width: 200px;
     height: 50px;
@@ -125,5 +112,11 @@ nav ul li:last-child a {
     background-repeat: repeat no-repeat;
     background-position: 22vw bottom;
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  93' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 68L50 64C100 60 200 52 300 35C400 18 500 -7 600 1C700 10 800 52 900 68C1000 85 1100 77 1150 73L1200 68V94H1150C1100 94 1000 94 900 94C800 94 700 94 600 94C500 94 400 94 300 94C200 94 100 94 50 94H0V68Z' fill='%2327282a'/></svg>");
+}
+
+.services-image {
+    background-color: #27282a;
+    border-radius: 50%;
+    padding: 5px;
 }
 

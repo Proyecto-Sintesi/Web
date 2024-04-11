@@ -3,9 +3,11 @@
 {% block content %}
     <div id="title">
         <div class="content">
-            <h1>HOSTING VISUALVISTA</h1>
+            <h1>VISUALVISTA HOSTING</h1>
             <p>Los mejores servidores al precio más asequible</p>
-            <a href="https://google.com"><button>EMPIEZA</button></a>
+            <a href="https://google.com">
+                <button>EMPIEZA</button>
+            </a>
         </div>
         <img src="{{ url_for('static', filename='images/robot.webp') }}" alt="imagen de un robot"
              style="width: 500px; height: 500px">
@@ -15,7 +17,7 @@
         <h2>Els nostres serveis</h2>
         <ul>
             {% for image in images %}
-                <li><img src="{{ image }}" alt="" style="height: 100px; aspect-ratio: 1"></li>
+                <li><img class="services-image"  src="{{ image }}" alt="" style="height: 100px; aspect-ratio: 1"></li>
             {% endfor %}
         </ul>
     </div>

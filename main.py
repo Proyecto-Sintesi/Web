@@ -16,6 +16,11 @@ async def home():
     return await render_template("index.html", images=images[::-1])
 
 
+@app.route("/servicios")
+async def servicios():
+    return render_template("services.html")
+
+
 if __name__ == "__main__":
     from constants import HOST, PORT
 
